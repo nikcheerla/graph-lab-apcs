@@ -57,7 +57,25 @@ public class Graph {
 			pixels[px][py].setRed(0);
 			pixels[px][py].setGreen(0);
 			pixels[px][py].setBlue(0);
-			System.out.println(px + ", " + py);
+			System.out.println(pt.x + ", " + pt.y + ":::" + px + ", " + py);
+		}
+
+		if (minx < 0 && maxx > 0) {
+			int px = (int)(xl*(0 - minx)/(maxx - minx));
+			for(int j = 0; j < pixels[0].length; j++) {
+				pixels[px][j].setRed(0);
+				pixels[px][j].setGreen(0);
+				pixels[px][j].setBlue(0);
+			}
+		}
+
+		if (miny < 0 && maxy > 0) {
+			int py = (int)(yl*(0 - miny)/(maxy - miny));
+			for(int i = 0; i < pixels.length; i++) {
+				pixels[i][py].setRed(0);
+				pixels[i][py].setGreen(0);
+				pixels[i][py].setBlue(0);
+			}
 		}
 		return beach;
 	}
@@ -88,7 +106,7 @@ public class Graph {
 
 	public static void main(String[] args) {
 		Graph g = new Graph();
-		for(double x = -6.0; x < 6.0; x+= 0.001) {
+		for(double x = -1.0; x < 1.0; x+= 0.0001) {
 			g.plot(x, Math.asin(x));
 		}
 		g.setBounds();

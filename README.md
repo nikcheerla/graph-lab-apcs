@@ -1,7 +1,7 @@
 Graph-Lab
 ===========
 
-Graph Lab, modeled of APCS Picture Lab, for AP Computer Science classes.
+Graph Lab, modeled off of APCS Picture Lab, for AP Computer Science classes.
 
 <h3>About the project</h3>
 This project is the last lab for computer science, first semester.
