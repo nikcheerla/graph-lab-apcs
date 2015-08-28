@@ -1,14 +1,17 @@
-Picture-Lab
+Graph-Lab
 ===========
 
-Picture Lab for IB/AP Computer Science.
+Graph Lab, modeled of APCS Picture Lab, for AP Computer Science classes.
 
 <h3>About the project</h3>
 This project is the last lab for computer science, first semester.
 
 <h3>Usage</h3>
-This project works best on [BlueJ](http://www.bluej.org/). Simply load the classes folder onto BlueJ, and it should be ready to compile.
+This project can be used right off the bat and works with most Java workflows
 
 <h3>Contributors</h3>
- - Jackson Chen
- - Will Kaufman
+ - Nikhil Cheerla
+ - Neil Palleti
+ - Madeline Chen
+ - Mahesh Murag
+ - forked off of Jackson Kaufman's Picture-Lab
