@@ -5,4 +5,4 @@ classes/*.ctxt
 classes/docs/*.html
 *.class
 package.bluej
-idea/
+.idea/
