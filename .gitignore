@@ -3,4 +3,6 @@ classes/__*
 classes/*.class
 classes/*.ctxt
 classes/docs/*.html
-
+*.class
+package.bluej
+.idea/
